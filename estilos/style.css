@@ -20,3 +20,7 @@ body{
 .texto-destaque{
     color: #C8F113;
 }
+.apresentacao{
+    display: flex;
+    align-items: center;
+}
