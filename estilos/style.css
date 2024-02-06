@@ -25,7 +25,7 @@ body{
     color: #C8F113;
 }
 .apresentacao{
-    margin: 10% 15%;
+    margin: 0% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
