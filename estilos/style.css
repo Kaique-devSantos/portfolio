@@ -2,7 +2,9 @@
     --cor-primaria: #000000;
     --cor-secundaria: #F6F6F6;
     --cor-terciaria: #22D4FD;
+    --cor-destaque: #C8F113 ;
 }
+
 
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;700&display=swap');
 
@@ -17,8 +19,8 @@
 body{
     box-sizing: border-box;
     /* height: 100vh; */
-    background-color: black;
-    color:#F6F6F6;
+    background-color: var(--cor-primaria);
+    color:var(--cor-secundaria);
 }
 .cabecalho{
         padding: 2% 0% 0% 15%;
@@ -32,7 +34,7 @@ body{
 
 .cabecalho__links__link{
     text-decoration: none;
-    color: #22D4FD;
+    color: var(--cor-terciaria);
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 16px;
@@ -42,11 +44,11 @@ body{
     font-size: 18px;
 }
 .destaque-titulo {
-    color: #5BEBC9;
+    color: var(--cor-terciaria);
 }
 
 .texto-destaque{
-    color: #C8F113;
+    color: var(--cor-destaque);
 }
 .apresentacao{
    padding: 5% 15%;
