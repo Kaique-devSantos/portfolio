@@ -27,11 +27,7 @@ body{
         padding: 2% 0% 0% 15%;
       
 }
-.apresentacao__conteudo__titulo-sobre{
-        font-family: 'Montserrat', sans-serif;
-        padding: 10% 20% 10% 20% ;
-        
-}
+
 
 .cabecalho__menu{
             display: flex;
