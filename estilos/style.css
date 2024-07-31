@@ -16,13 +16,13 @@
 
 body {
     box-sizing: border-box;
-    /* height: 100vh; */
+    height: 100vh; 
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
 }
 
 .cabecalho {
-    padding: 2% 0% 0% 15%;
+    padding: 2% 15%;
 }
 
 .cabecalho__menu {
@@ -60,9 +60,7 @@ body {
 }
 
 .apresentacao__conteudo {
-    /* margin: 10% 20% 10% 20%; */
     width: 50%;
-    /* height: 482px; */
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -102,7 +100,6 @@ body {
     gap: 32px;
 }
 
-/* Border radius indica que a borda criada será redonda */
 .apresentacao__links__link {
     display: flex;
     justify-content: center;
@@ -192,11 +189,11 @@ body {
     }
 
     .cabecalho__menu {
-        justify-content: center;
+        gap: 20px;
     }
 
     .cabecalho__links__link {
-        font-size: 1rem;
+        font-size: 1.25rem; /* Font-size maior para celulares */
     }
 
     .apresentacao {
@@ -208,7 +205,27 @@ body {
         width: auto;
     }
 
+    .apresentacao__conteudo__titulo {
+        font-size: 1.75rem; /* Font-size maior para celulares */
+    }
+
+    .apresentacao__conteudo__titulo-nome {
+        font-size: 1.75rem; /* Font-size maior para celulares */
+    }
+
+    .apresentacao__conteudo__texto {
+        font-size: 1.125rem; /* Font-size maior para celulares */
+    }
+
+    .apresentacao__links__subtitulo {
+        font-size: 1.125rem; /* Font-size maior para celulares */
+    }
+
+    .apresentacao__links__link {
+        font-size: 1.5rem; /* Font-size maior para celulares */
+    }
+
     .rodape {
-        font-size: 2.5rem;
+        font-size: 2.5rem; /* Font-size maior para celulares */
     }
 }
